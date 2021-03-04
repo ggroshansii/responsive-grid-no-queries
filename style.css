@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+
+body, html {
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+h1 {
+    margin: 15px 45px 45px 25px;
+    font-size: 65px;
+}
+
+h1, p, strong{
+    font-family: 'Caveat', cursive;
+}
+
+strong{
+    font-size: 28px;
+}
+
+img{
+    height: 180px;
+    width: 100%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
