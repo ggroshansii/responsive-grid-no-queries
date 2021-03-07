@@ -31,5 +31,16 @@ img{
 main{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 5px;
+
+}
+
+.card {
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
 }
 
